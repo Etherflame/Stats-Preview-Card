@@ -1,0 +1,29 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+p {
+  margin: 0rem;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0rem;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--p-very-dark-blue);
+  // Temp
+  color: white;
+  font-family: "Inter", sans-serif;
+}
